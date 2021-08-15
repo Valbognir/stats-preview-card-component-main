@@ -7,27 +7,57 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
+  <!--Font Type-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
+  <main>
+    <article>
+        <div class="info">
+            <h1>
+                Get <span class="accent">insights</span> that help your business grow.
+            </h1>
+            <br>
+            <p class="main-paragraph">
+                Discover the benefits of data analytics and make better decisions regarding revenue, cutomer experience, and overall effeniency.
+            </p>
+        </div>
+        <div class="stats">
+            <div class="text-center">
+                <h2 class="stat-heading">10k+</h2>
+                <p class="uppercase">companies</p>
+            </div>
+            <div class="text-center">
+                <h2 class="stat-heading">314</h2>
+                <p class="uppercase">templates</p>
+            </div>
+            <div class="text-center">
+                <h2 class="stat-heading">12M+</h2>
+                <p class="uppercase">queries</p>
+            </div>
+        </div>
+    </article>
+    <section class="image-section">
+            <img class="header-image" src="images/image-header-desktop.jpg" alt="Working Ladies">
+            <img src="images/image-header-mobile.jpg" alt="Working Ladies" class="header-image-mobile">
+    </section>
+  </main>
+    
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Valbognir">Valbognir</a>.
   </div>
+
+  
 </body>
 </html>
